@@ -1,4 +1,4 @@
-#include <stdio.h>
+ο»Ώ#include <stdio.h>
 #include <locale.h>
 
 int main() {
@@ -48,17 +48,17 @@ int main() {
     signed int* sint_ptr = 0;
     signed int* sint_ptr2 = sint_ptr + 1;
 
-    printf("1) char: %ld αΰις\n", (long)(char_ptr2 - char_ptr));
-    printf("2) short int: %ld αΰις\n", (long)(short_ptr2 - short_ptr));
-    printf("3) unsigned short int: %ld αΰις\n", (long)(ushort_ptr2 - ushort_ptr));
-    printf("4) int: %ld αΰις\n", (long)(int_ptr2 - int_ptr));
-    printf("5) unsigned char: %ld αΰις\n", (long)(uchar_ptr2 - uchar_ptr));
-    printf("6) wchar_t: %ld αΰις\n", (long)(wchar_ptr2 - wchar_ptr));
-    printf("7) long long int: %ld αΰις\n", (long)(llong_ptr2 - llong_ptr));
-    printf("8) size_t: %ld αΰις\n", (long)(size_t_ptr2 - size_t_ptr));
-    printf("9) float: %ld αΰις\n", (long)(float_ptr2 - float_ptr));
-    printf("10) double: %ld αΰις\n", (long)(double_ptr2 - double_ptr));
-    printf("11) signed int: %ld αΰις\n", (long)(sint_ptr2 - sint_ptr));
+    printf("1) char: %ld Π±Π°ΠΉΡ‚\n", (long)(char_ptr2 - char_ptr));
+    printf("2) short int: %ld Π±Π°ΠΉΡ‚\n", (long)(short_ptr2 - short_ptr));
+    printf("3) unsigned short int: %ld Π±Π°ΠΉΡ‚\n", (long)(ushort_ptr2 - ushort_ptr));
+    printf("4) int: %ld Π±Π°ΠΉΡ‚\n", (long)(int_ptr2 - int_ptr));
+    printf("5) unsigned char: %ld Π±Π°ΠΉΡ‚\n", (long)(uchar_ptr2 - uchar_ptr));
+    printf("6) wchar_t: %ld Π±Π°ΠΉΡ‚\n", (long)(wchar_ptr2 - wchar_ptr));
+    printf("7) long long int: %ld Π±Π°ΠΉΡ‚\n", (long)(llong_ptr2 - llong_ptr));
+    printf("8) size_t: %ld Π±Π°ΠΉΡ‚\n", (long)(size_t_ptr2 - size_t_ptr));
+    printf("9) float: %ld Π±Π°ΠΉΡ‚\n", (long)(float_ptr2 - float_ptr));
+    printf("10) double: %ld Π±Π°ΠΉΡ‚\n", (long)(double_ptr2 - double_ptr));
+    printf("11) signed int: %ld Π±Π°ΠΉΡ‚\n", (long)(sint_ptr2 - sint_ptr));
 
     return 0;
 }
