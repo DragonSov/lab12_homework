@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.9">
+  <diagram name="Overtime Flow" id="2u3Q3ggcuYk2IhDMNAyF">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="tjvWF3Wco0xBa7Y8Jqr_-2" target="tjvWF3Wco0xBa7Y8Jqr_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-2" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="460" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="tjvWF3Wco0xBa7Y8Jqr_-6" target="tjvWF3Wco0xBa7Y8Jqr_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-6" value="&amp;nbsp; &amp;nbsp; char* char_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; char* char_ptr2 = char_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; short int* short_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; short int* short_ptr2 = short_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; unsigned short int* ushort_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; unsigned short int* ushort_ptr2 = ushort_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; int* int_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; int* int_ptr2 = int_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; unsigned char* uchar_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; unsigned char* uchar_ptr2 = uchar_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; wchar_t* wchar_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; wchar_t* wchar_ptr2 = wchar_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; long long int* llong_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; long long int* llong_ptr2 = llong_ptr + 1&lt;br&gt;&amp;nbsp; &amp;nbsp; size_t* size_t_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; size_t* size_t_ptr2 = size_t_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; float* float_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; float* float_ptr2 = float_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; double* double_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; double* double_ptr2 = double_ptr + 1;&lt;br&gt;&amp;nbsp; &amp;nbsp; signed int* sint_ptr = 0;&lt;br&gt;&amp;nbsp; &amp;nbsp; signed int* sint_ptr2 = sint_ptr + 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="720.5" y="550" width="287" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-7" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="1169" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="tjvWF3Wco0xBa7Y8Jqr_-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694.25" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-13" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#666666;" vertex="1" connectable="0" parent="tjvWF3Wco0xBa7Y8Jqr_-12">
+          <mxGeometry x="-0.1596" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="tjvWF3Wco0xBa7Y8Jqr_-23" target="tjvWF3Wco0xBa7Y8Jqr_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tjvWF3Wco0xBa7Y8Jqr_-23" value="(long)(char_ptr2 - char_ptr)&lt;br&gt;(long)(short_ptr2 - short_ptr)&lt;br&gt;(long)(ushort_ptr2 - ushort_ptr)&lt;br&gt;long)(int_ptr2 - int_ptr)&lt;br&gt;(long)(uchar_ptr2 - uchar_ptr)&lt;br&gt;(long)(wchar_ptr2 - wchar_ptr)&lt;br&gt;(long)(llong_ptr2 - llong_ptr)&lt;br&gt;(long)(size_t_ptr2 - size_t_ptr)&lt;br&gt;(long)(float_ptr2 - float_ptr)&lt;br&gt;(long)(double_ptr2 - double_ptr)&lt;br&gt;(long)(sint_ptr2 - sint_ptr)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="734" y="930" width="260" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
